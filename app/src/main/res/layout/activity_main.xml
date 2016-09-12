@@ -29,6 +29,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@drawable/rectangular_button"
+            android:onClick="showNewExpenseActivity"
             android:layout_marginRight="5dp"
             android:text="Добавить"
             android:layout_weight="1"
@@ -45,8 +46,8 @@
     </LinearLayout>
 
     <GridLayout
-        android:layout_marginTop="10dip"
-        android:layout_marginBottom="10dip"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
